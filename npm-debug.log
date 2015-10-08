@@ -1,0 +1,695 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose readDependencies loading dependencies from /Users/uriel.molina/sites/elixir/app/api_json/package.json
+5 warn package.json @ No license field.
+6 verbose install where, deps [ '/Users/uriel.molina/sites/elixir/app/api_json',
+6 verbose install   [ 'brunch',
+6 verbose install     'babel-brunch',
+6 verbose install     'clean-css-brunch',
+6 verbose install     'css-brunch',
+6 verbose install     'javascript-brunch',
+6 verbose install     'uglify-js-brunch' ] ]
+7 verbose install where, peers [ '/Users/uriel.molina/sites/elixir/app/api_json', [] ]
+8 verbose installManyTop reading for lifecycle /Users/uriel.molina/sites/elixir/app/api_json/package.json
+9 info preinstall @
+10 verbose readDependencies loading dependencies from /Users/uriel.molina/sites/elixir/app/api_json/package.json
+11 silly cache add args [ 'babel-brunch@^5.1.1', null ]
+12 verbose cache add spec babel-brunch@^5.1.1
+13 silly cache add parsed spec { raw: 'babel-brunch@^5.1.1',
+13 silly cache add   scope: null,
+13 silly cache add   name: 'babel-brunch',
+13 silly cache add   rawSpec: '^5.1.1',
+13 silly cache add   spec: '>=5.1.1 <6.0.0',
+13 silly cache add   type: 'range' }
+14 silly addNamed babel-brunch@>=5.1.1 <6.0.0
+15 verbose addNamed ">=5.1.1 <6.0.0" is a valid semver range for babel-brunch
+16 silly addNameRange { name: 'babel-brunch', range: '>=5.1.1 <6.0.0', hasData: false }
+17 silly mapToRegistry name babel-brunch
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry uri https://registry.npmjs.org/babel-brunch
+21 verbose addNameRange registry:https://registry.npmjs.org/babel-brunch not in flight; fetching
+22 silly cache add args [ 'clean-css-brunch@>= 1.0 < 1.8', null ]
+23 verbose cache add spec clean-css-brunch@>= 1.0 < 1.8
+24 silly cache add parsed spec { raw: 'clean-css-brunch@>= 1.0 < 1.8',
+24 silly cache add   scope: null,
+24 silly cache add   name: 'clean-css-brunch',
+24 silly cache add   rawSpec: '>= 1.0 < 1.8',
+24 silly cache add   spec: '>=1.0.0 <1.8.0',
+24 silly cache add   type: 'range' }
+25 silly addNamed clean-css-brunch@>=1.0.0 <1.8.0
+26 verbose addNamed ">=1.0.0 <1.8.0" is a valid semver range for clean-css-brunch
+27 silly addNameRange { name: 'clean-css-brunch',
+27 silly addNameRange   range: '>=1.0.0 <1.8.0',
+27 silly addNameRange   hasData: false }
+28 silly mapToRegistry name clean-css-brunch
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry uri https://registry.npmjs.org/clean-css-brunch
+32 verbose addNameRange registry:https://registry.npmjs.org/clean-css-brunch not in flight; fetching
+33 silly cache add args [ 'css-brunch@>= 1.0 < 1.8', null ]
+34 verbose cache add spec css-brunch@>= 1.0 < 1.8
+35 silly cache add parsed spec { raw: 'css-brunch@>= 1.0 < 1.8',
+35 silly cache add   scope: null,
+35 silly cache add   name: 'css-brunch',
+35 silly cache add   rawSpec: '>= 1.0 < 1.8',
+35 silly cache add   spec: '>=1.0.0 <1.8.0',
+35 silly cache add   type: 'range' }
+36 silly addNamed css-brunch@>=1.0.0 <1.8.0
+37 verbose addNamed ">=1.0.0 <1.8.0" is a valid semver range for css-brunch
+38 silly addNameRange { name: 'css-brunch', range: '>=1.0.0 <1.8.0', hasData: false }
+39 silly mapToRegistry name css-brunch
+40 silly mapToRegistry using default registry
+41 silly mapToRegistry registry https://registry.npmjs.org/
+42 silly mapToRegistry uri https://registry.npmjs.org/css-brunch
+43 verbose addNameRange registry:https://registry.npmjs.org/css-brunch not in flight; fetching
+44 silly cache add args [ 'javascript-brunch@>= 1.0 < 1.8', null ]
+45 verbose cache add spec javascript-brunch@>= 1.0 < 1.8
+46 silly cache add parsed spec { raw: 'javascript-brunch@>= 1.0 < 1.8',
+46 silly cache add   scope: null,
+46 silly cache add   name: 'javascript-brunch',
+46 silly cache add   rawSpec: '>= 1.0 < 1.8',
+46 silly cache add   spec: '>=1.0.0 <1.8.0',
+46 silly cache add   type: 'range' }
+47 silly addNamed javascript-brunch@>=1.0.0 <1.8.0
+48 verbose addNamed ">=1.0.0 <1.8.0" is a valid semver range for javascript-brunch
+49 silly addNameRange { name: 'javascript-brunch',
+49 silly addNameRange   range: '>=1.0.0 <1.8.0',
+49 silly addNameRange   hasData: false }
+50 silly mapToRegistry name javascript-brunch
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/javascript-brunch
+54 verbose addNameRange registry:https://registry.npmjs.org/javascript-brunch not in flight; fetching
+55 silly cache add args [ 'uglify-js-brunch@>= 1.0 < 1.8', null ]
+56 verbose cache add spec uglify-js-brunch@>= 1.0 < 1.8
+57 silly cache add parsed spec { raw: 'uglify-js-brunch@>= 1.0 < 1.8',
+57 silly cache add   scope: null,
+57 silly cache add   name: 'uglify-js-brunch',
+57 silly cache add   rawSpec: '>= 1.0 < 1.8',
+57 silly cache add   spec: '>=1.0.0 <1.8.0',
+57 silly cache add   type: 'range' }
+58 silly addNamed uglify-js-brunch@>=1.0.0 <1.8.0
+59 verbose addNamed ">=1.0.0 <1.8.0" is a valid semver range for uglify-js-brunch
+60 silly addNameRange { name: 'uglify-js-brunch',
+60 silly addNameRange   range: '>=1.0.0 <1.8.0',
+60 silly addNameRange   hasData: false }
+61 silly mapToRegistry name uglify-js-brunch
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry uri https://registry.npmjs.org/uglify-js-brunch
+65 verbose addNameRange registry:https://registry.npmjs.org/uglify-js-brunch not in flight; fetching
+66 silly cache add args [ 'brunch@^1.8.5', null ]
+67 verbose cache add spec brunch@^1.8.5
+68 silly cache add parsed spec { raw: 'brunch@^1.8.5',
+68 silly cache add   scope: null,
+68 silly cache add   name: 'brunch',
+68 silly cache add   rawSpec: '^1.8.5',
+68 silly cache add   spec: '>=1.8.5 <2.0.0',
+68 silly cache add   type: 'range' }
+69 silly addNamed brunch@>=1.8.5 <2.0.0
+70 verbose addNamed ">=1.8.5 <2.0.0" is a valid semver range for brunch
+71 silly addNameRange { name: 'brunch', range: '>=1.8.5 <2.0.0', hasData: false }
+72 silly mapToRegistry name brunch
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/brunch
+76 verbose addNameRange registry:https://registry.npmjs.org/brunch not in flight; fetching
+77 verbose request uri https://registry.npmjs.org/clean-css-brunch
+78 verbose request no auth needed
+79 info attempt registry request try #1 at 12:03:04 AM
+80 verbose request id 280664621f7e9bb7
+81 verbose etag "9U92WK9N2J0M45E90BGP5WP5"
+82 http request GET https://registry.npmjs.org/clean-css-brunch
+83 verbose request uri https://registry.npmjs.org/babel-brunch
+84 verbose request no auth needed
+85 info attempt registry request try #1 at 12:03:04 AM
+86 verbose etag "915ING937LVJRSABS23RJGWC5"
+87 http request GET https://registry.npmjs.org/babel-brunch
+88 verbose request uri https://registry.npmjs.org/javascript-brunch
+89 verbose request no auth needed
+90 info attempt registry request try #1 at 12:03:04 AM
+91 verbose etag "YINTEG3IV50UYQN9X8FUHDF9"
+92 http request GET https://registry.npmjs.org/javascript-brunch
+93 verbose request uri https://registry.npmjs.org/uglify-js-brunch
+94 verbose request no auth needed
+95 info attempt registry request try #1 at 12:03:04 AM
+96 verbose etag "E5N0FJHINOWGJGVIHR33ODJD4"
+97 http request GET https://registry.npmjs.org/uglify-js-brunch
+98 verbose request uri https://registry.npmjs.org/css-brunch
+99 verbose request no auth needed
+100 info attempt registry request try #1 at 12:03:04 AM
+101 verbose etag "2V2HLB5CIMYLY10JE05T2YPR4"
+102 http request GET https://registry.npmjs.org/css-brunch
+103 verbose request uri https://registry.npmjs.org/brunch
+104 verbose request no auth needed
+105 info attempt registry request try #1 at 12:03:04 AM
+106 verbose etag "9071CV366OX4DM2RWGDL2K84F"
+107 http request GET https://registry.npmjs.org/brunch
+108 http 304 https://registry.npmjs.org/css-brunch
+109 silly get cb [ 304,
+109 silly get   { date: 'Mon, 05 Oct 2015 05:03:05 GMT',
+109 silly get     via: '1.1 varnish',
+109 silly get     'cache-control': 'max-age=60',
+109 silly get     etag: '"2V2HLB5CIMYLY10JE05T2YPR4"',
+109 silly get     age: '0',
+109 silly get     connection: 'keep-alive',
+109 silly get     'x-served-by': 'cache-ord1730-ORD',
+109 silly get     'x-cache': 'MISS',
+109 silly get     'x-cache-hits': '0',
+109 silly get     'x-timer': 'S1444021385.188731,VS0,VE38',
+109 silly get     vary: 'Accept' } ]
+110 verbose etag https://registry.npmjs.org/css-brunch from cache
+111 verbose get saving css-brunch to /Users/uriel.molina/.npm/registry.npmjs.org/css-brunch/.cache.json
+112 http 304 https://registry.npmjs.org/babel-brunch
+113 silly get cb [ 304,
+113 silly get   { date: 'Mon, 05 Oct 2015 05:03:05 GMT',
+113 silly get     via: '1.1 varnish',
+113 silly get     'cache-control': 'max-age=60',
+113 silly get     etag: '"915ING937LVJRSABS23RJGWC5"',
+113 silly get     age: '0',
+113 silly get     connection: 'keep-alive',
+113 silly get     'x-served-by': 'cache-ord1722-ORD',
+113 silly get     'x-cache': 'MISS',
+113 silly get     'x-cache-hits': '0',
+113 silly get     'x-timer': 'S1444021385.190420,VS0,VE38',
+113 silly get     vary: 'Accept' } ]
+114 verbose etag https://registry.npmjs.org/babel-brunch from cache
+115 verbose get saving babel-brunch to /Users/uriel.molina/.npm/registry.npmjs.org/babel-brunch/.cache.json
+116 http 304 https://registry.npmjs.org/javascript-brunch
+117 silly get cb [ 304,
+117 silly get   { date: 'Mon, 05 Oct 2015 05:03:05 GMT',
+117 silly get     via: '1.1 varnish',
+117 silly get     'cache-control': 'max-age=60',
+117 silly get     etag: '"YINTEG3IV50UYQN9X8FUHDF9"',
+117 silly get     age: '0',
+117 silly get     connection: 'keep-alive',
+117 silly get     'x-served-by': 'cache-ord1733-ORD',
+117 silly get     'x-cache': 'MISS',
+117 silly get     'x-cache-hits': '0',
+117 silly get     'x-timer': 'S1444021385.188849,VS0,VE38',
+117 silly get     vary: 'Accept' } ]
+118 verbose etag https://registry.npmjs.org/javascript-brunch from cache
+119 verbose get saving javascript-brunch to /Users/uriel.molina/.npm/registry.npmjs.org/javascript-brunch/.cache.json
+120 http 304 https://registry.npmjs.org/clean-css-brunch
+121 silly get cb [ 304,
+121 silly get   { date: 'Mon, 05 Oct 2015 05:03:05 GMT',
+121 silly get     via: '1.1 varnish',
+121 silly get     'cache-control': 'max-age=60',
+121 silly get     etag: '"9U92WK9N2J0M45E90BGP5WP5"',
+121 silly get     age: '0',
+121 silly get     connection: 'keep-alive',
+121 silly get     'x-served-by': 'cache-ord1723-ORD',
+121 silly get     'x-cache': 'MISS',
+121 silly get     'x-cache-hits': '0',
+121 silly get     'x-timer': 'S1444021385.194435,VS0,VE40',
+121 silly get     vary: 'Accept' } ]
+122 verbose etag https://registry.npmjs.org/clean-css-brunch from cache
+123 verbose get saving clean-css-brunch to /Users/uriel.molina/.npm/registry.npmjs.org/clean-css-brunch/.cache.json
+124 http 304 https://registry.npmjs.org/brunch
+125 silly get cb [ 304,
+125 silly get   { date: 'Mon, 05 Oct 2015 05:03:05 GMT',
+125 silly get     via: '1.1 varnish',
+125 silly get     'cache-control': 'max-age=60',
+125 silly get     etag: '"9071CV366OX4DM2RWGDL2K84F"',
+125 silly get     age: '0',
+125 silly get     connection: 'keep-alive',
+125 silly get     'x-served-by': 'cache-ord1725-ORD',
+125 silly get     'x-cache': 'HIT',
+125 silly get     'x-cache-hits': '1',
+125 silly get     'x-timer': 'S1444021385.240046,VS0,VE37',
+125 silly get     vary: 'Accept' } ]
+126 verbose etag https://registry.npmjs.org/brunch from cache
+127 verbose get saving brunch to /Users/uriel.molina/.npm/registry.npmjs.org/brunch/.cache.json
+128 silly addNameRange number 2 { name: 'babel-brunch', range: '>=5.1.1 <6.0.0', hasData: true }
+129 silly addNameRange versions [ 'babel-brunch',
+129 silly addNameRange   [ '4.0.0', '5.0.0', '5.0.1', '5.1.0', '5.1.1', '5.1.2' ] ]
+130 silly addNamed babel-brunch@5.1.2
+131 verbose addNamed "5.1.2" is a plain semver version for babel-brunch
+132 silly addNameRange number 2 { name: 'javascript-brunch',
+132 silly addNameRange   range: '>=1.0.0 <1.8.0',
+132 silly addNameRange   hasData: true }
+133 silly addNameRange versions [ 'javascript-brunch',
+133 silly addNameRange   [ '1.0.0',
+133 silly addNameRange     '1.1.0',
+133 silly addNameRange     '1.1.1',
+133 silly addNameRange     '1.3.0',
+133 silly addNameRange     '1.5.0',
+133 silly addNameRange     '1.5.1',
+133 silly addNameRange     '1.6.0',
+133 silly addNameRange     '1.7.0',
+133 silly addNameRange     '1.7.1' ] ]
+134 silly addNamed javascript-brunch@1.7.1
+135 verbose addNamed "1.7.1" is a plain semver version for javascript-brunch
+136 silly addNameRange number 2 { name: 'css-brunch', range: '>=1.0.0 <1.8.0', hasData: true }
+137 silly addNameRange versions [ 'css-brunch',
+137 silly addNameRange   [ '1.0.0',
+137 silly addNameRange     '1.1.0',
+137 silly addNameRange     '1.1.1',
+137 silly addNameRange     '1.3.0',
+137 silly addNameRange     '1.5.0',
+137 silly addNameRange     '1.5.1',
+137 silly addNameRange     '1.6.0',
+137 silly addNameRange     '1.7.0' ] ]
+138 silly addNamed css-brunch@1.7.0
+139 verbose addNamed "1.7.0" is a plain semver version for css-brunch
+140 silly addNameRange number 2 { name: 'clean-css-brunch',
+140 silly addNameRange   range: '>=1.0.0 <1.8.0',
+140 silly addNameRange   hasData: true }
+141 silly addNameRange versions [ 'clean-css-brunch',
+141 silly addNameRange   [ '1.0.0',
+141 silly addNameRange     '1.1.0',
+141 silly addNameRange     '1.1.1',
+141 silly addNameRange     '1.3.0',
+141 silly addNameRange     '1.4.0',
+141 silly addNameRange     '1.5.0',
+141 silly addNameRange     '1.5.1',
+141 silly addNameRange     '1.6.0',
+141 silly addNameRange     '1.7.0',
+141 silly addNameRange     '1.7.1',
+141 silly addNameRange     '1.7.2' ] ]
+142 silly addNamed clean-css-brunch@1.7.2
+143 verbose addNamed "1.7.2" is a plain semver version for clean-css-brunch
+144 silly addNameRange number 2 { name: 'brunch', range: '>=1.8.5 <2.0.0', hasData: true }
+145 silly addNameRange versions [ 'brunch',
+145 silly addNameRange   [ '0.0.1',
+145 silly addNameRange     '0.0.2',
+145 silly addNameRange     '0.0.3',
+145 silly addNameRange     '0.0.4',
+145 silly addNameRange     '0.0.5',
+145 silly addNameRange     '0.0.6',
+145 silly addNameRange     '0.0.7',
+145 silly addNameRange     '0.0.8',
+145 silly addNameRange     '0.1.0',
+145 silly addNameRange     '0.1.1',
+145 silly addNameRange     '0.1.3',
+145 silly addNameRange     '0.1.4',
+145 silly addNameRange     '0.1.5',
+145 silly addNameRange     '0.1.6',
+145 silly addNameRange     '0.1.7',
+145 silly addNameRange     '0.1.8',
+145 silly addNameRange     '0.1.9',
+145 silly addNameRange     '0.2.0',
+145 silly addNameRange     '0.2.1',
+145 silly addNameRange     '0.2.2',
+145 silly addNameRange     '0.2.3',
+145 silly addNameRange     '0.2.4',
+145 silly addNameRange     '0.2.6',
+145 silly addNameRange     '0.2.7',
+145 silly addNameRange     '0.2.8',
+145 silly addNameRange     '0.3.0',
+145 silly addNameRange     '0.3.1',
+145 silly addNameRange     '0.3.2',
+145 silly addNameRange     '0.3.4',
+145 silly addNameRange     '0.3.5',
+145 silly addNameRange     '0.3.6',
+145 silly addNameRange     '0.3.7',
+145 silly addNameRange     '0.4.0',
+145 silly addNameRange     '0.4.1',
+145 silly addNameRange     '0.4.2',
+145 silly addNameRange     '0.4.3',
+145 silly addNameRange     '0.4.4',
+145 silly addNameRange     '0.4.5',
+145 silly addNameRange     '0.5.1',
+145 silly addNameRange     '0.5.2',
+145 silly addNameRange     '0.5.3',
+145 silly addNameRange     '0.5.4',
+145 silly addNameRange     '0.5.5',
+145 silly addNameRange     '0.5.6',
+145 silly addNameRange     '0.6.0',
+145 silly addNameRange     '0.6.1',
+145 silly addNameRange     '0.6.2',
+145 silly addNameRange     '0.7.0',
+145 silly addNameRange     '0.7.1',
+145 silly addNameRange     '0.7.2',
+145 silly addNameRange     '0.7.3',
+145 silly addNameRange     '0.7.4',
+145 silly addNameRange     '0.8.0',
+145 silly addNameRange     '0.8.1',
+145 silly addNameRange     '0.9.0-beta1',
+145 silly addNameRange     '0.9.0',
+145 silly addNameRange     '0.9.1',
+145 silly addNameRange     '1.0.0',
+145 silly addNameRange     '1.0.1',
+145 silly addNameRange     '1.0.2',
+145 silly addNameRange     '1.0.3',
+145 silly addNameRange     '1.1.0',
+145 silly addNameRange     '1.1.1',
+145 silly addNameRange     '1.1.2',
+145 silly addNameRange     '1.2.0',
+145 silly addNameRange     '1.2.1',
+145 silly addNameRange     '1.2.2',
+145 silly addNameRange     '1.3.0',
+145 silly addNameRange     '1.3.1',
+145 silly addNameRange     '1.3.2',
+145 silly addNameRange     '1.3.3',
+145 silly addNameRange     '1.3.4',
+145 silly addNameRange     '1.4.0',
+145 silly addNameRange     '1.4.1',
+145 silly addNameRange     '1.4.2',
+145 silly addNameRange     '1.4.3',
+145 silly addNameRange     '1.4.4',
+145 silly addNameRange     '1.4.5',
+145 silly addNameRange     '1.5.0',
+145 silly addNameRange     '1.5.1',
+145 silly addNameRange     '1.5.2',
+145 silly addNameRange     '1.5.3',
+145 silly addNameRange     '1.5.4',
+145 silly addNameRange     '1.6.0',
+145 silly addNameRange     '1.6.1',
+145 silly addNameRange     '1.6.2',
+145 silly addNameRange     '1.6.3',
+145 silly addNameRange     '1.6.4',
+145 silly addNameRange     '1.6.5',
+145 silly addNameRange     '1.6.6',
+145 silly addNameRange     '1.6.7',
+145 silly addNameRange     '1.7.0',
+145 silly addNameRange     '1.7.1',
+145 silly addNameRange     '1.7.2',
+145 silly addNameRange     '1.7.3',
+145 silly addNameRange     '1.7.4',
+145 silly addNameRange     '1.7.5',
+145 silly addNameRange     '1.7.6',
+145 silly addNameRange     '1.7.7',
+145 silly addNameRange     '1.7.8',
+145 silly addNameRange     '1.7.9',
+145 silly addNameRange     '1.7.10',
+145 silly addNameRange     '1.7.12',
+145 silly addNameRange     '1.7.13',
+145 silly addNameRange     '1.7.14',
+145 silly addNameRange     '1.7.15',
+145 silly addNameRange     '1.7.16',
+145 silly addNameRange     '1.7.17',
+145 silly addNameRange     '1.7.18',
+145 silly addNameRange     '1.7.19',
+145 silly addNameRange     '1.7.20',
+145 silly addNameRange     '1.8.0',
+145 silly addNameRange     '1.8.1',
+145 silly addNameRange     '1.8.2',
+145 silly addNameRange     '1.8.3',
+145 silly addNameRange     '1.8.4',
+145 silly addNameRange     '1.8.5' ] ]
+146 silly addNamed brunch@1.8.5
+147 verbose addNamed "1.8.5" is a plain semver version for brunch
+148 silly cache afterAdd babel-brunch@5.1.2
+149 verbose afterAdd /Users/uriel.molina/.npm/babel-brunch/5.1.2/package/package.json not in flight; writing
+150 silly cache afterAdd css-brunch@1.7.0
+151 verbose afterAdd /Users/uriel.molina/.npm/css-brunch/1.7.0/package/package.json not in flight; writing
+152 silly cache afterAdd javascript-brunch@1.7.1
+153 verbose afterAdd /Users/uriel.molina/.npm/javascript-brunch/1.7.1/package/package.json not in flight; writing
+154 silly cache afterAdd clean-css-brunch@1.7.2
+155 verbose afterAdd /Users/uriel.molina/.npm/clean-css-brunch/1.7.2/package/package.json not in flight; writing
+156 verbose afterAdd /Users/uriel.molina/.npm/css-brunch/1.7.0/package/package.json written
+157 verbose afterAdd /Users/uriel.molina/.npm/javascript-brunch/1.7.1/package/package.json written
+158 verbose afterAdd /Users/uriel.molina/.npm/babel-brunch/5.1.2/package/package.json written
+159 verbose afterAdd /Users/uriel.molina/.npm/clean-css-brunch/1.7.2/package/package.json written
+160 silly cache afterAdd brunch@1.8.5
+161 verbose afterAdd /Users/uriel.molina/.npm/brunch/1.8.5/package/package.json not in flight; writing
+162 verbose afterAdd /Users/uriel.molina/.npm/brunch/1.8.5/package/package.json written
+163 http 304 https://registry.npmjs.org/uglify-js-brunch
+164 silly get cb [ 304,
+164 silly get   { date: 'Mon, 05 Oct 2015 05:03:05 GMT',
+164 silly get     via: '1.1 varnish',
+164 silly get     'cache-control': 'max-age=60',
+164 silly get     etag: '"E5N0FJHINOWGJGVIHR33ODJD4"',
+164 silly get     age: '0',
+164 silly get     connection: 'keep-alive',
+164 silly get     'x-served-by': 'cache-ord1722-ORD',
+164 silly get     'x-cache': 'MISS',
+164 silly get     'x-cache-hits': '0',
+164 silly get     'x-timer': 'S1444021385.238321,VS0,VE302',
+164 silly get     vary: 'Accept' } ]
+165 verbose etag https://registry.npmjs.org/uglify-js-brunch from cache
+166 verbose get saving uglify-js-brunch to /Users/uriel.molina/.npm/registry.npmjs.org/uglify-js-brunch/.cache.json
+167 silly addNameRange number 2 { name: 'uglify-js-brunch',
+167 silly addNameRange   range: '>=1.0.0 <1.8.0',
+167 silly addNameRange   hasData: true }
+168 silly addNameRange versions [ 'uglify-js-brunch',
+168 silly addNameRange   [ '1.0.0',
+168 silly addNameRange     '1.1.0',
+168 silly addNameRange     '1.1.1',
+168 silly addNameRange     '1.3.0',
+168 silly addNameRange     '1.3.1',
+168 silly addNameRange     '1.5.0',
+168 silly addNameRange     '1.5.1',
+168 silly addNameRange     '1.7.0',
+168 silly addNameRange     '1.7.1',
+168 silly addNameRange     '1.7.2',
+168 silly addNameRange     '1.7.3',
+168 silly addNameRange     '1.7.4',
+168 silly addNameRange     '1.7.5',
+168 silly addNameRange     '1.7.6',
+168 silly addNameRange     '1.7.7',
+168 silly addNameRange     '1.7.8' ] ]
+169 silly addNamed uglify-js-brunch@1.7.8
+170 verbose addNamed "1.7.8" is a plain semver version for uglify-js-brunch
+171 silly cache afterAdd uglify-js-brunch@1.7.8
+172 verbose afterAdd /Users/uriel.molina/.npm/uglify-js-brunch/1.7.8/package/package.json not in flight; writing
+173 verbose afterAdd /Users/uriel.molina/.npm/uglify-js-brunch/1.7.8/package/package.json written
+174 silly install resolved [ { name: 'css-brunch',
+174 silly install resolved     version: '1.7.0',
+174 silly install resolved     description: 'Adds CSS support to brunch.',
+174 silly install resolved     author: { name: 'Paul Miller', url: 'http://paulmillr.com/' },
+174 silly install resolved     homepage: 'https://github.com/brunch/css-brunch',
+174 silly install resolved     repository:
+174 silly install resolved      { type: 'git',
+174 silly install resolved        url: 'git+ssh://git@github.com/brunch/css-brunch.git' },
+174 silly install resolved     main: './lib/index',
+174 silly install resolved     scripts:
+174 silly install resolved      { prepublish: 'rm -rf lib && coffee --bare --output lib/ src/',
+174 silly install resolved        test: 'mocha --require test/common.js' },
+174 silly install resolved     dependencies: {},
+174 silly install resolved     devDependencies: { mocha: '1.11.0', chai: '1.7.0' },
+174 silly install resolved     readme: '## css-brunch\nAdds CSS support to [brunch](http://brunch.io).\n\n## Usage\nInstall the plugin via npm with `npm install --save css-brunch`.\n\nOr, do manual install:\n\n* Add `"css-brunch": "x.y.z"` to `package.json` of your brunch app.\n  Pick a plugin version that corresponds to your minor (y) brunch version.\n* If you want to use git version of plugin, add\n`"css-brunch": "git+ssh://git@github.com:brunch/css-brunch.git"`.\n\n## License\n\nThe MIT License (MIT)\n\nCopyright (c) 2012-2013 Paul Miller (http://paulmillr.com)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the "Software"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n',
+174 silly install resolved     readmeFilename: 'README.md',
+174 silly install resolved     bugs: { url: 'https://github.com/brunch/css-brunch/issues' },
+174 silly install resolved     _id: 'css-brunch@1.7.0',
+174 silly install resolved     dist:
+174 silly install resolved      { shasum: '258c1b038a970840af0c6a8e5582f614050294da',
+174 silly install resolved        tarball: 'http://registry.npmjs.org/css-brunch/-/css-brunch-1.7.0.tgz' },
+174 silly install resolved     _from: 'css-brunch@>=1.0.0 <1.8.0',
+174 silly install resolved     _npmVersion: '1.3.8',
+174 silly install resolved     _npmUser: { name: 'es128', email: 'elan.shanker+npm@gmail.com' },
+174 silly install resolved     maintainers: [ [Object], [Object] ],
+174 silly install resolved     directories: {},
+174 silly install resolved     _shasum: '258c1b038a970840af0c6a8e5582f614050294da',
+174 silly install resolved     _resolved: 'https://registry.npmjs.org/css-brunch/-/css-brunch-1.7.0.tgz' },
+174 silly install resolved   { name: 'javascript-brunch',
+174 silly install resolved     version: '1.7.1',
+174 silly install resolved     description: 'Adds JavaScript support to brunch.',
+174 silly install resolved     author: { name: 'Paul Miller', url: 'http://paulmillr.com/' },
+174 silly install resolved     homepage: 'https://github.com/brunch/javascript-brunch',
+174 silly install resolved     repository:
+174 silly install resolved      { type: 'git',
+174 silly install resolved        url: 'git+ssh://git@github.com/brunch/javascript-brunch.git' },
+174 silly install resolved     main: './lib/index',
+174 silly install resolved     scripts: { test: 'mocha --require test/common.js' },
+174 silly install resolved     dependencies: { esprima: '~1.0.4' },
+174 silly install resolved     devDependencies: { mocha: '1.15.1', chai: '1.8.1' },
+174 silly install resolved     readme: '## javascript-brunch\nAdds JavaScript support to [brunch](http://brunch.io).\n\nIt is mandatory plugin.\n\nIt also does JS source code validation.\n\n## Usage\nInstall the plugin via npm with `npm install --save javascript-brunch`.\n\nOr, do manual install:\n\n* Add `"javascript-brunch": "x.y.z"` to `package.json` of your brunch app.\n  Pick a plugin version that corresponds to your minor (y) brunch version.\n* If you want to use git version of plugin, add\n`"javascript-brunch": "git+ssh://git@github.com:brunch/javascript-brunch.git"`.\n\n## Options\n\n`config.plugins.javascript.validate` (default: `true`) — enables source code validation with Esprima.\n\n## License\n\nThe MIT License (MIT)\n\nCopyright (c) 2012-2013 Paul Miller (http://paulmillr.com)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the "Software"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n',
+174 silly install resolved     readmeFilename: 'README.md',
+174 silly install resolved     bugs: { url: 'https://github.com/brunch/javascript-brunch/issues' },
+174 silly install resolved     _id: 'javascript-brunch@1.7.1',
+174 silly install resolved     dist:
+174 silly install resolved      { shasum: '80810ccd8ce5a22c7525a46c0bb94b4bb9d8185d',
+174 silly install resolved        tarball: 'http://registry.npmjs.org/javascript-brunch/-/javascript-brunch-1.7.1.tgz' },
+174 silly install resolved     _from: 'javascript-brunch@>=1.0.0 <1.8.0',
+174 silly install resolved     _npmVersion: '1.3.14',
+174 silly install resolved     _npmUser: { name: 'paulmillr', email: 'paul@paulmillr.com' },
+174 silly install resolved     maintainers: [ [Object], [Object] ],
+174 silly install resolved     directories: {},
+174 silly install resolved     _shasum: '80810ccd8ce5a22c7525a46c0bb94b4bb9d8185d',
+174 silly install resolved     _resolved: 'https://registry.npmjs.org/javascript-brunch/-/javascript-brunch-1.7.1.tgz' },
+174 silly install resolved   { name: 'babel-brunch',
+174 silly install resolved     version: '5.1.2',
+174 silly install resolved     description: 'Brunch plugin to turn ES6 code into vanilla ES5 with no runtime required.',
+174 silly install resolved     author: { name: 'Elan Shanker' },
+174 silly install resolved     homepage: 'https://github.com/babel/babel-brunch',
+174 silly install resolved     repository:
+174 silly install resolved      { type: 'git',
+174 silly install resolved        url: 'git+https://github.com/babel/babel-brunch.git' },
+174 silly install resolved     keywords:
+174 silly install resolved      [ 'babel',
+174 silly install resolved        'brunch',
+174 silly install resolved        'brunch-plugin',
+174 silly install resolved        'brunch-compiler',
+174 silly install resolved        'js',
+174 silly install resolved        'es6',
+174 silly install resolved        'es5',
+174 silly install resolved        '6to5' ],
+174 silly install resolved     scripts: { test: 'mocha' },
+174 silly install resolved     dependencies: { 'babel-core': '^5.0.0', anymatch: '^1.0.0' },
+174 silly install resolved     devDependencies: { mocha: '1.x' },
+174 silly install resolved     gitHead: 'a0d32ace51e168c5df9d71cbcc6597f79a5e2f02',
+174 silly install resolved     bugs: { url: 'https://github.com/babel/babel-brunch/issues' },
+174 silly install resolved     _id: 'babel-brunch@5.1.2',
+174 silly install resolved     _shasum: '4b476b9ea2b64dbfd8864ac3665932f634469bdc',
+174 silly install resolved     _from: 'babel-brunch@>=5.1.1 <6.0.0',
+174 silly install resolved     _npmVersion: '2.9.0',
+174 silly install resolved     _nodeVersion: '2.0.0',
+174 silly install resolved     _npmUser: { name: 'es128', email: 'elan.shanker+npm@gmail.com' },
+174 silly install resolved     maintainers: [ [Object], [Object] ],
+174 silly install resolved     dist:
+174 silly install resolved      { shasum: '4b476b9ea2b64dbfd8864ac3665932f634469bdc',
+174 silly install resolved        tarball: 'http://registry.npmjs.org/babel-brunch/-/babel-brunch-5.1.2.tgz' },
+174 silly install resolved     directories: {},
+174 silly install resolved     _resolved: 'https://registry.npmjs.org/babel-brunch/-/babel-brunch-5.1.2.tgz',
+174 silly install resolved     readme: 'ERROR: No README data found!' },
+174 silly install resolved   { name: 'clean-css-brunch',
+174 silly install resolved     version: '1.7.2',
+174 silly install resolved     description: 'Adds CleanCSS support to brunch.',
+174 silly install resolved     author: { name: 'Paul Miller', url: 'http://paulmillr.com/' },
+174 silly install resolved     homepage: 'https://github.com/brunch/clean-css-brunch',
+174 silly install resolved     repository:
+174 silly install resolved      { type: 'git',
+174 silly install resolved        url: 'git+ssh://git@github.com/brunch/clean-css-brunch.git' },
+174 silly install resolved     main: './lib/index',
+174 silly install resolved     scripts: { test: 'mocha' },
+174 silly install resolved     dependencies: { 'clean-css': '~3.1.5' },
+174 silly install resolved     devDependencies: { mocha: '~1.17.1', chai: '~1.9.0' },
+174 silly install resolved     gitHead: 'd9a504a24d81f5011bd9e50c9f21cf7e9de31a57',
+174 silly install resolved     bugs: { url: 'https://github.com/brunch/clean-css-brunch/issues' },
+174 silly install resolved     _id: 'clean-css-brunch@1.7.2',
+174 silly install resolved     _shasum: '14e85a9f95738c15cd859dc93f982a1997b020aa',
+174 silly install resolved     _from: 'clean-css-brunch@>=1.0.0 <1.8.0',
+174 silly install resolved     _npmVersion: '1.4.28',
+174 silly install resolved     _npmUser: { name: 'es128', email: 'elan.shanker+npm@gmail.com' },
+174 silly install resolved     maintainers: [ [Object], [Object] ],
+174 silly install resolved     dist:
+174 silly install resolved      { shasum: '14e85a9f95738c15cd859dc93f982a1997b020aa',
+174 silly install resolved        tarball: 'http://registry.npmjs.org/clean-css-brunch/-/clean-css-brunch-1.7.2.tgz' },
+174 silly install resolved     directories: {},
+174 silly install resolved     _resolved: 'https://registry.npmjs.org/clean-css-brunch/-/clean-css-brunch-1.7.2.tgz',
+174 silly install resolved     readme: 'ERROR: No README data found!' },
+174 silly install resolved   { name: 'brunch',
+174 silly install resolved     description: 'A lightweight approach to building HTML5 applications with emphasis on elegance and simplicity',
+174 silly install resolved     version: '1.8.5',
+174 silly install resolved     keywords:
+174 silly install resolved      [ 'assembler',
+174 silly install resolved        'builder',
+174 silly install resolved        'stack',
+174 silly install resolved        'chaplin',
+174 silly install resolved        'backbone',
+174 silly install resolved        'ember',
+174 silly install resolved        'angular',
+174 silly install resolved        'html5' ],
+174 silly install resolved     homepage: 'http://brunch.io/',
+174 silly install resolved     author: { name: 'Brunch team', url: 'http://brunch.io' },
+174 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/brunch/brunch.git' },
+174 silly install resolved     bugs: { url: 'http://github.com/brunch/brunch/issues' },
+174 silly install resolved     licenses: [ [Object] ],
+174 silly install resolved     main: './lib/index',
+174 silly install resolved     bin: { brunch: './bin/brunch' },
+174 silly install resolved     scripts:
+174 silly install resolved      { prepublish: 'coffee -bo lib/ src/',
+174 silly install resolved        postinstall: 'node -e "require(\'fs\').readdir(\'lib\',function(e){e&&require(\'child_process\').exec(\'npm run prepublish\')})"',
+174 silly install resolved        test: 'mocha --compilers coffee:coffee-script/register --require test/common.coffee --colors' },
+174 silly install resolved     preferGlobal: true,
+174 silly install resolved     dependencies:
+174 silly install resolved      { anymatch: '~1.3.0',
+174 silly install resolved        anysort: '~1.0.0',
+174 silly install resolved        'async-each': '~0.1.2',
+174 silly install resolved        'async-waterfall': '~0.1.2',
+174 silly install resolved        chokidar: '~1.0.1',
+174 silly install resolved        'coffee-script': '~1.9.0',
+174 silly install resolved        commander: '~2.7.1',
+174 silly install resolved        'commonjs-require-definition': '~0.2.0',
+174 silly install resolved        debug: '~2.1.1',
+174 silly install resolved        deppack: '~0.1.0',
+174 silly install resolved        fcache: '~0.1.0',
+174 silly install resolved        'init-skeleton': '~0.4.0',
+174 silly install resolved        loggy: '~0.2.0',
+174 silly install resolved        mkdirp: '~0.5.0',
+174 silly install resolved        pushserve: '~0.1.6',
+174 silly install resolved        'quickly-copy-file': '~0.1.0',
+174 silly install resolved        'read-components': '~0.6.0',
+174 silly install resolved        'source-map': '~0.3.0' },
+174 silly install resolved     devDependencies:
+174 silly install resolved      { mocha: '~1.12.0',
+174 silly install resolved        chai: '~1.7.0',
+174 silly install resolved        rewire: '~1.1.3',
+174 silly install resolved        express: '~3.3.0' },
+174 silly install resolved     gitHead: 'b8b25bc2c0e6dd21a8ad3d2a8e0157e770f3d3d2',
+174 silly install resolved     _id: 'brunch@1.8.5',
+174 silly install resolved     _shasum: '50e6536eee40159a3fa3b65c14e09bc83a47cc39',
+174 silly install resolved     _from: 'brunch@>=1.8.5 <2.0.0',
+174 silly install resolved     _npmVersion: '2.13.0',
+174 silly install resolved     _nodeVersion: '2.4.0',
+174 silly install resolved     _npmUser: { name: 'es128', email: 'elan.shanker+npm@gmail.com' },
+174 silly install resolved     dist:
+174 silly install resolved      { shasum: '50e6536eee40159a3fa3b65c14e09bc83a47cc39',
+174 silly install resolved        tarball: 'http://registry.npmjs.org/brunch/-/brunch-1.8.5.tgz' },
+174 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+174 silly install resolved     directories: {},
+174 silly install resolved     _resolved: 'https://registry.npmjs.org/brunch/-/brunch-1.8.5.tgz',
+174 silly install resolved     readme: 'ERROR: No README data found!' },
+174 silly install resolved   { name: 'uglify-js-brunch',
+174 silly install resolved     version: '1.7.8',
+174 silly install resolved     description: 'Adds Uglify minifying support to brunch.',
+174 silly install resolved     author: { name: 'Paul Miller', url: 'http://paulmillr.com/' },
+174 silly install resolved     homepage: 'https://github.com/brunch/uglify-js-brunch',
+174 silly install resolved     keywords: [ 'brunchplugin', 'uglify', 'uglify-js', 'optimizer' ],
+174 silly install resolved     repository:
+174 silly install resolved      { type: 'git',
+174 silly install resolved        url: 'git+ssh://git@github.com/brunch/uglify-js-brunch.git' },
+174 silly install resolved     scripts: { test: 'mocha' },
+174 silly install resolved     dependencies: { 'uglify-js': '~2.4.7' },
+174 silly install resolved     devDependencies: { mocha: '~1.17.1', chai: '~1.9.0' },
+174 silly install resolved     gitHead: '87517472e29e372becd9659aac88d0c9451c3677',
+174 silly install resolved     bugs: { url: 'https://github.com/brunch/uglify-js-brunch/issues' },
+174 silly install resolved     _id: 'uglify-js-brunch@1.7.8',
+174 silly install resolved     _shasum: 'b36dffbcd19cfea27248d34797effef1ae9d3a62',
+174 silly install resolved     _from: 'uglify-js-brunch@>=1.0.0 <1.8.0',
+174 silly install resolved     _npmVersion: '2.7.3',
+174 silly install resolved     _nodeVersion: '1.6.2',
+174 silly install resolved     _npmUser: { name: 'es128', email: 'elan.shanker+npm@gmail.com' },
+174 silly install resolved     maintainers: [ [Object], [Object] ],
+174 silly install resolved     dist:
+174 silly install resolved      { shasum: 'b36dffbcd19cfea27248d34797effef1ae9d3a62',
+174 silly install resolved        tarball: 'http://registry.npmjs.org/uglify-js-brunch/-/uglify-js-brunch-1.7.8.tgz' },
+174 silly install resolved     directories: {},
+174 silly install resolved     _resolved: 'https://registry.npmjs.org/uglify-js-brunch/-/uglify-js-brunch-1.7.8.tgz',
+174 silly install resolved     readme: 'ERROR: No README data found!' } ]
+175 info install css-brunch@1.7.0 into /Users/uriel.molina/sites/elixir/app/api_json
+176 info install javascript-brunch@1.7.1 into /Users/uriel.molina/sites/elixir/app/api_json
+177 info install babel-brunch@5.1.2 into /Users/uriel.molina/sites/elixir/app/api_json
+178 info install clean-css-brunch@1.7.2 into /Users/uriel.molina/sites/elixir/app/api_json
+179 info install brunch@1.8.5 into /Users/uriel.molina/sites/elixir/app/api_json
+180 info install uglify-js-brunch@1.7.8 into /Users/uriel.molina/sites/elixir/app/api_json
+181 info installOne css-brunch@1.7.0
+182 verbose installOne of css-brunch to /Users/uriel.molina/sites/elixir/app/api_json not in flight; installing
+183 info installOne javascript-brunch@1.7.1
+184 verbose installOne of javascript-brunch to /Users/uriel.molina/sites/elixir/app/api_json not in flight; installing
+185 info installOne babel-brunch@5.1.2
+186 verbose installOne of babel-brunch to /Users/uriel.molina/sites/elixir/app/api_json not in flight; installing
+187 info installOne clean-css-brunch@1.7.2
+188 verbose installOne of clean-css-brunch to /Users/uriel.molina/sites/elixir/app/api_json not in flight; installing
+189 info installOne brunch@1.8.5
+190 verbose installOne of brunch to /Users/uriel.molina/sites/elixir/app/api_json not in flight; installing
+191 info installOne uglify-js-brunch@1.7.8
+192 verbose installOne of uglify-js-brunch to /Users/uriel.molina/sites/elixir/app/api_json not in flight; installing
+193 warn locking Error: EACCES, open '/Users/uriel.molina/.npm/_locks/css-brunch-dca5d09457292774.lock'
+193 warn locking     at Error (native)
+193 warn locking  /Users/uriel.molina/.npm/_locks/css-brunch-dca5d09457292774.lock failed { [Error: EACCES, open '/Users/uriel.molina/.npm/_locks/css-brunch-dca5d09457292774.lock']
+193 warn locking   errno: -13,
+193 warn locking   code: 'EACCES',
+193 warn locking   path: '/Users/uriel.molina/.npm/_locks/css-brunch-dca5d09457292774.lock' }
+194 verbose stack Error: Attempt to unlock /Users/uriel.molina/sites/elixir/app/api_json/node_modules/css-brunch, which hasn't been locked
+194 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:66:11)
+194 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/install.js:1017:5)
+194 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:1021:20
+194 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:40:9
+194 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+194 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+194 verbose stack     at FSReqWrap.oncomplete (fs.js:95:15)
+195 verbose cwd /Users/uriel.molina/sites/elixir/app/api_json
+196 error Darwin 15.0.0
+197 error argv "node" "/usr/local/bin/npm" "install"
+198 error node v0.12.4
+199 error npm  v2.10.1
+200 error Attempt to unlock /Users/uriel.molina/sites/elixir/app/api_json/node_modules/css-brunch, which hasn't been locked
+201 error If you need help, you may report this error at:
+201 error     <https://github.com/npm/npm/issues>
+202 verbose exit [ 1, true ]
