@@ -18,9 +18,24 @@ defmodule ApiJson.UserControllerTest do
   test "shows chosen resource", %{conn: conn} do
     user = Repo.insert! %User{}
     conn = get conn, user_path(conn, :show, user)
-    assert json_response(conn, 200)["data"] == %{"id" => user.id,
+    assert json_response(conn, 200)["data"] == %{"id" => user.user_id,
       "first_name" => user.first_name,
-      "last_name" => user.last_name}
+      "last_name" => user.last_name,
+      "books" => []
+      }
+  end
+
+  test "shows chosen resource and assoc books", %{conn: conn} do
+    params         = %{ first_name: "Uriel", last_name: "Molina", books: [%{book: "book", editorial: "nameeee"}] }
+    user_changeset = User.changeset(%User{}, params)
+    user           = Repo.insert! user_changeset
+
+    conn = get conn, user_path(conn, :show, user)
+    assert json_response(conn, 200)["data"] == %{"id" => user.user_id,
+      "first_name" => user.first_name,
+      "last_name" => user.last_name,
+      "books" => Enum.map(user.books , fn(book) -> %{ "book" => book.book, "editorial" => book.editorial } end)
+    }
   end
 
   test "does not show resource and instead throw error when id is nonexistent", %{conn: conn} do
@@ -57,6 +72,6 @@ defmodule ApiJson.UserControllerTest do
     user = Repo.insert! %User{}
     conn = delete conn, user_path(conn, :delete, user)
     assert response(conn, 204)
-    refute Repo.get(User, user.id)
+    refute Repo.get(User, user.user_id)
   end
 end

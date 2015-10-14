@@ -18,10 +18,10 @@ defmodule ApiJson.BookControllerTest do
   test "shows chosen resource", %{conn: conn} do
     book = Repo.insert! %Book{}
     conn = get conn, book_path(conn, :show, book)
-    assert json_response(conn, 200)["data"] == %{"id" => book.id,
+    assert json_response(conn, 200)["data"] == %{"id" => book.book_id,
       "book" => book.book,
       "editorial" => book.editorial,
-      "userid" => book.userid}
+      "user_id" => book.user_id}
   end
 
   test "does not show resource and instead throw error when id is nonexistent", %{conn: conn} do
@@ -58,6 +58,6 @@ defmodule ApiJson.BookControllerTest do
     book = Repo.insert! %Book{}
     conn = delete conn, book_path(conn, :delete, book)
     assert response(conn, 204)
-    refute Repo.get(Book, book.id)
+    refute Repo.get(Book, book.book_id)
   end
 end

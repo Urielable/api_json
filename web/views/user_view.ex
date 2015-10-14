@@ -12,6 +12,8 @@ defmodule ApiJson.UserView do
   def render("user.json", %{user: user}) do
     %{id: user.user_id,
       first_name: user.first_name,
-      last_name: user.last_name}
+      last_name: user.last_name,
+      books: Enum.map(user.books , fn(book) -> %{ book: book.book, editorial: book.editorial } end)
+    }
   end
 end
